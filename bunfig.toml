@@ -1,0 +1,11 @@
+publicDir = "public"
+
+[bundle]
+entryPoints = ["./src/index.tsx"]
+
+[loaders]
+# When loading a .json file, run the JS parser
+".json" = "js"
+
+[debug]
+editor = "nvim"

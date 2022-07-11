@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "name": "@chnx/web-frontend",
+  "description": "The official open web frontend to the chain native exchange",
+  "license": "MIT",
+  "scripts": {
+    "test": "bun wiptest",
+    "build": "bun bun ./src/index.tsx",
+    "dev": "bun dev"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.6.4",
+    "bun-types": "^0.1.2"
+  }
+}

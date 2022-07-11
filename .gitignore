@@ -1,0 +1,14 @@
+# nodejs
+node_modules
+
+# bun
+bun.lockb
+*.bun
+
+# logs
+logs
+*.log
+
+# environment variable config
+.env
+.env.test
